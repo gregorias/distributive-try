@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "distributive-try:lib"
+
+    - path: "./app/Main.hs"
+      component: "distributive-try:exe:distributive-try-exe"
+
+    - path: "./app/Paths_hledupt.hs"
+      component: "distributive-try:exe:distributive-try-exe"
+
+    - path: "./test"
+      component: "distributive-try:test:distributive-try-test"
