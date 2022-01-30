@@ -1,6 +1,6 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.34.3.
+-- This file has been generated from package.yaml by hpack version 0.34.4.
 --
 -- see: https://github.com/sol/hpack
 
@@ -29,7 +29,8 @@ library
       Paths_distributive_try
   hs-source-dirs:
       src
-  default-extensions: DerivingStrategies GeneralisedNewtypeDeriving InstanceSigs LambdaCase NoImplicitPrelude NumericUnderscores ScopedTypeVariables TupleSections TypeApplications UnicodeSyntax
+  default-extensions:
+      DerivingStrategies GeneralisedNewtypeDeriving InstanceSigs LambdaCase NoImplicitPrelude NumericUnderscores ScopedTypeVariables TupleSections TypeApplications UnicodeSyntax
   build-depends:
       base >=4.13 && <5
     , megaparsec
@@ -43,7 +44,8 @@ test-suite distributive-try-test
       Paths_distributive_try
   hs-source-dirs:
       test
-  default-extensions: DerivingStrategies GeneralisedNewtypeDeriving InstanceSigs LambdaCase NoImplicitPrelude NumericUnderscores ScopedTypeVariables TupleSections TypeApplications UnicodeSyntax
+  default-extensions:
+      DerivingStrategies GeneralisedNewtypeDeriving InstanceSigs LambdaCase NoImplicitPrelude NumericUnderscores ScopedTypeVariables TupleSections TypeApplications UnicodeSyntax
   ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is Spec
   build-depends:
       base >=4.13 && <5
